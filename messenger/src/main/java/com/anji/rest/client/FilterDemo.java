@@ -16,7 +16,7 @@ public class FilterDemo implements ContainerRequestFilter, ContainerResponseFilt
 			ContainerResponseContext responseContext) throws IOException {
 		System.out.println(responseContext.getHeaders());
 		responseContext.getHeaders().add("MY Header", "Anji Header");
-		
+		System.out.println("HIII");
 		
 	}
 
