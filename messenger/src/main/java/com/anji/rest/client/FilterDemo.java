@@ -18,6 +18,9 @@ public class FilterDemo implements ContainerRequestFilter, ContainerResponseFilt
 		responseContext.getHeaders().add("MY Header", "Anji Header");
 		System.out.println("HIII");
 		
+		
+		System.out.println("HIII secon time added for test");
+		
 	}
 
 	@Override
